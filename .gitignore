@@ -1,0 +1,65 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+*.log
+
+# Node / Frontend
+node_modules/
+build/
+dist/
+.eslintcache
+.cache/
+yarn-error.log
+npm-debug.log*
+
+# Local env
+frontend/.env
+backend/.env
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+test_reports/
+coverage/
+frontend/node_modules/.cache/default-development/1.pack
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
+frontend/node_modules/.cache/default-development/2.pack
+frontend/node_modules/.cache/default-development/6.pack
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
+frontend/node_modules/.cache/default-development/5.pack
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
