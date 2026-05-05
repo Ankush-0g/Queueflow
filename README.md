@@ -5,6 +5,8 @@ A full-stack queue management platform for banks, hospitals & service centers.
 **Stack**: FastAPI (Python) · MongoDB · React 19 · Tailwind · Shadcn UI · WebSockets · Resend (email)
 
 ---
+# Live demo
+url : https://queueflowss.onrender.com
 
 ## Features
 
@@ -187,15 +189,15 @@ Interactive docs: `http://localhost:8001/docs`
 
 ## Deployment
 
-### Backend (Render / Fly.io / Railway)
+### Backend (Render )
 - Set the env vars above in your provider's dashboard
 - Start command: `uvicorn server:app --host 0.0.0.0 --port $PORT`
 - Use **MongoDB Atlas** for production `MONGO_URL`
 
-### Frontend (Vercel / Netlify)
-- Build command: `yarn build`
+### Frontend (Render/static project)
+- Build command: `npm install &&  npm run build`
 - Publish directory: `build/`
-- Env var: `REACT_APP_BACKEND_URL=https://your-api.example.com`
+- Env var: `REACT_APP_BACKEND_URL=https://backend.example.com`
 
 ### Email (Resend)
 1. Create account at https://resend.com
